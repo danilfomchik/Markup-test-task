@@ -754,13 +754,21 @@ select {
         line-height: 14px;
     }
 
+    .charts-container__block {
+        min-height: 265px;
+    }
+
     .chart {
         font-size: 10px;
         line-height: 18px;
     }
 
+    .chart__rows-scale-row hr {
+        margin: 10px 0px;
+    }
+
     .chart__columns {
-        bottom: -6px;
+        bottom: -7px;
     }
 
     .chart__legend-item {
